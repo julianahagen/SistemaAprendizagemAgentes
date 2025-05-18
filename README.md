@@ -1,6 +1,8 @@
 # SistemaAprendizagemAgentes
 Sistema interativo de aprendizado com agentes de IA, desenvolvido com Google ADK e modelos Gemini, gerando aulas adaptadas ao perfil do usuário e respondendo dúvidas baseadas em busca.
 
+(image/SistemaAprensizagemAgentes - visual selection.png)
+
 ![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection.png)
 
 ## Sobre o Projeto
