@@ -1,9 +1,8 @@
 # SistemaAprendizagemAgentes
 Sistema interativo de aprendizado com agentes de IA, desenvolvido com Google ADK e modelos Gemini, gerando aulas adaptadas ao perfil do usuário e respondendo dúvidas baseadas em busca.
 
-(image/SistemaAprensizagemAgentes - visual selection.png)
-![Imagem de Teste](teste.png)
-![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection.png)
+![Texto Descritivo da Imagem](image/image(5).png)
+
 
 ## Sobre o Projeto
 
@@ -11,7 +10,7 @@ Este projeto foi desenvolvido como parte da **Imersão IA da Alura em parceria c
 
 O sistema simula um tutor virtual que se adapta ao perfil do aluno, busca informações atualizadas, redige uma aula didática, fornece material de revisão e permite uma sessão interativa de perguntas e respostas para fixar o conhecimento. Todo o histórico da sessão pode ser salvo localmente.
 
-![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (1).png)
+![Texto Descritivo da Imagem](image/image(4).png)
 
 ## Funcionalidades
 
@@ -22,7 +21,7 @@ O sistema simula um tutor virtual que se adapta ao perfil do aluno, busca inform
 * **Sessão Tira Dúvidas:** Permite ao aluno fazer perguntas específicas sobre o tópico, que são respondidas buscando informações e adaptando a resposta ao perfil.
 * **Salvamento de Histórico:** Salva o conteúdo completo da sessão de estudo em um arquivo local (.md) no ambiente de execução.
 
-![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (2).png)
+![Texto Descritivo da Imagem](image/image(3).png)
 
 
 ## Como Rodar o Projeto
@@ -61,7 +60,7 @@ O sistema é construído com base em uma orquestração de múltiplos agentes es
 * Ferramenta `google_search`
 * Bibliotecas Python: `requests` (para verificar links), `os`, `datetime`, `textwrap`, `re`.
 
-![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (3).png)
+![Texto Descritivo da Imagem](image/image(2).png)
 
 
 ## Desafios e Aprendizados
@@ -84,5 +83,5 @@ Este projeto pode ser expandido de diversas formas:
 * **Feedback Baseado na Dúvida:** O agente de dúvidas poderia não apenas responder, mas também sugerir tópicos relacionados ou materiais de aprofundamento com base nas perguntas mais frequentes do aluno.
 * **Análise do Histórico:** Implementar a funcionalidade de analisar o histórico de sessões salvas para identificar áreas de dificuldade do aluno ao longo do tempo.
 
- ![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (4).png)
+![Texto Descritivo da Imagem](image/image(1).png)
 
