@@ -1,12 +1,15 @@
 # SistemaAprendizagemAgentes
 Sistema interativo de aprendizado com agentes de IA, desenvolvido com Google ADK e modelos Gemini, gerando aulas adaptadas ao perfil do usuário e respondendo dúvidas baseadas em busca.
 
+![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection.png)
 
 ## Sobre o Projeto
 
 Este projeto foi desenvolvido como parte da **Imersão IA da Alura em parceria com o Google**. O objetivo principal é criar um sistema de aprendizado interativo e personalizado que utiliza múltiplos agentes de Inteligência Artificial para guiar o usuário no estudo de um tópico de sua escolha.
 
 O sistema simula um tutor virtual que se adapta ao perfil do aluno, busca informações atualizadas, redige uma aula didática, fornece material de revisão e permite uma sessão interativa de perguntas e respostas para fixar o conhecimento. Todo o histórico da sessão pode ser salvo localmente.
+
+![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (1).png)
 
 ## Funcionalidades
 
@@ -16,6 +19,9 @@ O sistema simula um tutor virtual que se adapta ao perfil do aluno, busca inform
 * **Material de Revisão:** Cria um resumo conciso dos pontos-chave e lista as fontes consultadas.
 * **Sessão Tira Dúvidas:** Permite ao aluno fazer perguntas específicas sobre o tópico, que são respondidas buscando informações e adaptando a resposta ao perfil.
 * **Salvamento de Histórico:** Salva o conteúdo completo da sessão de estudo em um arquivo local (.md) no ambiente de execução.
+
+![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (2).png)
+
 
 ## Como Rodar o Projeto
 
@@ -53,6 +59,9 @@ O sistema é construído com base em uma orquestração de múltiplos agentes es
 * Ferramenta `google_search`
 * Bibliotecas Python: `requests` (para verificar links), `os`, `datetime`, `textwrap`, `re`.
 
+![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (3).png)
+
+
 ## Desafios e Aprendizados
 
 O desenvolvimento deste projeto trouxe aprendizados valiosos, especialmente na orquestração de múltiplos agentes e na interação com frameworks como o Google ADK:
@@ -72,3 +81,6 @@ Este projeto pode ser expandido de diversas formas:
 * **Tipos de Conteúdo:** Expandir a geração de conteúdo para incluir outros formatos (tabelas, listas mais ricas, exemplos de código interativos).
 * **Feedback Baseado na Dúvida:** O agente de dúvidas poderia não apenas responder, mas também sugerir tópicos relacionados ou materiais de aprofundamento com base nas perguntas mais frequentes do aluno.
 * **Análise do Histórico:** Implementar a funcionalidade de analisar o histórico de sessões salvas para identificar áreas de dificuldade do aluno ao longo do tempo.
+
+ ![Diagrama do Fluxo do Sistema](image/SistemaAprensizagemAgentes - visual selection (4).png)
+
